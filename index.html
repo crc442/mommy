@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+		<meta charset="utf-8">
+		<title>Apoorva Balla</title>
+		
+		<!-- Mobile Specific Metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- CSS
+		================================================== -->
+		<!-- Bootstrap  -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- web font  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+		
+		<!-- icon fonts -->
+		<link type="text/css" rel="stylesheet" href="css/custom-icons.css">
+		<link type="text/css" rel="stylesheet" href="css/custom-icons-ie7.css">
+		<!-- Custom css -->
+		<link type="text/css" rel="stylesheet" href="css/layout.css">
+		<link type="text/css" rel="stylesheet" href="images/IcoMoon/sprites/sprites.css">
+		<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+		<script src="js/modernizr-2.6.1.min.js"></script>
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+	</head>
+	<body>
+		<!-- Primary Page Layout 
+		================================================== -->
+		<!-- globalWrapper -->
+		<div id="globalWrapper">
+			
+			<!-- content -->
+			<section class="counter mb30">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 text-center">
+							<h1>Apoorva Balla</h1><br><br>
+							<h2>Coming soon...</h2>
+							<p>We are working hard on our new website, see you very soon!</p>
+						</div>
+						<div class="col-md-12 text-center mt30">
+							<img src="images/home-girl.jpeg" alt="Apoorva Balla, website" class="logoImg img-circle"/>
+						</div>
+
+						<div class="col-md-12">
+							<div id="defaultCountdown"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section  id="social">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 text-center">
+							<ul class="socialNetwork">
+								<li><a href="https://www.facebook.com/balla.apoorva" class="tips" title="follow me on Facebook"><img src="images/IcoMoon/PNG/facebook.png"/></a></li>
+								<li><a href="https://twitter.com/pleonisa" class="tips" title="follow me on Twitter" target="_blank"><img src="images/IcoMoon/PNG/twitter.png"/></a></li>
+								<li><a href="https://plus.google.com/102416077594954592201" class="tips" title="follow me on Google+"><img src="images/IcoMoon/PNG/googleplus.png"/></a></li>
+								<li><a href="http://www.linkedin.com/pub/apoorva-balla/44/6ba/2a4" class="tips" title="follow me on Linkedin"><img src="images/IcoMoon/PNG/linkedin.png"/></a></li>
+								<li><a href="http://www.instagram.com/apoorvaballa" class="tips" title="follow me on Instagram"><img src="images/IcoMoon/PNG/instagram.png"/></a></li>
+							</ul>     
+						</div>
+
+						<div class="col-md-12 text-center">
+							<p>Developed © 2014 <a href="http://www.github.com/crc442" target="blank">CRC442</a> / All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- End footer -->
+		</div>
+		<!-- global wrapper -->
+		<!-- End Document 
+		================================================== -->
+		<script type="text/javascript" src="js/respond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+		<!-- third party plugins  -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+
+		<!-- countdown -->
+		<script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+
+		<script type="text/javascript">
+		$(function () {
+			var austDay = new Date();
+			austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+			$('#defaultCountdown').countdown({until: austDay});
+			$('#year').text(austDay.getFullYear());
+		});
+		</script>
+	</body>
+	</html>
